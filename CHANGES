@@ -1,0 +1,4 @@
+
+# find empty directory except .git and add .gitkeep file
+find -name .git -prune -o -type d -empty -print -exec touch {}/.gitkeep \;
+
