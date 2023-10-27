@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+cmake-*
+ImportExecutables-*.cmake
+/out*
+.vscode
+*tmp*.png
+test*.png
+test*.json
+
